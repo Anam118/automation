@@ -55,4 +55,4 @@ while accuracy < .90 :
     Accuracy = model.evaluate(x=test_x,y=test_y,batch_size=32)
     print("Accuracy: ",Accuracy[1])
     accuracy = Accuracy[1]
-    print(accuracy)s
+    print(accuracy)
